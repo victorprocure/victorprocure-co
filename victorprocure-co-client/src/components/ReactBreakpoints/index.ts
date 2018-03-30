@@ -1,0 +1,1 @@
+export { ReactBreakpoints as default } from './ReactBreakpoints';
