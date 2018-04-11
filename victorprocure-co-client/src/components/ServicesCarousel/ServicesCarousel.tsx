@@ -71,7 +71,10 @@ export class ServicesCarousel extends React.Component<{}, ServicesCarouselState>
                         title={item.altText}
                     />
 
-                    <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+                    <CarouselCaption
+                        captionText={item.caption}
+                        captionHeader={item.caption}
+                    />
                 </CarouselItem>
             );
         });

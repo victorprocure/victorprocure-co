@@ -12,7 +12,7 @@ export interface SectionProps {
 export class Section extends React.Component<SectionProps, {}> {
     public render() {
         const { children, title, className, ...allOtherProps } = this.props;
-        let newClassName = 'position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center';
+        let newClassName = 'position-relative overflow-hidden p-3 p-md-5 text-center';
 
         if (className && allOtherProps.overrideClass) {
             newClassName = className;
