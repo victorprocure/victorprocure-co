@@ -1,1 +1,0 @@
-export { ServicesCarousel as default } from './ServicesCarousel';
