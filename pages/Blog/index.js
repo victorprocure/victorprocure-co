@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import { format } from 'date-fns'
-import { Link } from '../routes'
-import client from '../client'
+import { Link } from '../../routes'
+import client from '../../client'
 
 export default class Index extends PureComponent {
   static getInitialProps = async () => ({
@@ -12,7 +12,7 @@ export default class Index extends PureComponent {
     const { posts = [] } = this.props
     return (
       <div>
-        <h1>Welcome to a website!</h1>
+        <h1>Blog archive</h1>
         {posts.map(
           ({ _id, title = '', slug = '', _updatedAt = '' }) =>
             slug && (
