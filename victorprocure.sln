@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F7EDDA2-42C6-49D8-99F7-EEA32002B248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "victorprocure.host", "src\victorprocure.host\victorprocure.host.csproj", "{D7D97958-2456-43D8-867F-F1A4356347A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorProcure.Host", "src\VictorProcure.Host\VictorProcure.Host.csproj", "{D7D97958-2456-43D8-867F-F1A4356347A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

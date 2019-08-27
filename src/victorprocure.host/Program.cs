@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace victorprocure.host
+namespace VictorProcure.Host
 {
     public class Program
     {

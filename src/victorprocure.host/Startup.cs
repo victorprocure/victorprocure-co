@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace victorprocure.host
+namespace VictorProcure.Host
 {
     public class Startup
     {
